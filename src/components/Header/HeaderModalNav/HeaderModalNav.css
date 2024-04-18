@@ -1,0 +1,75 @@
+.header__modal-window {
+    position: absolute;
+    z-index: 11;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 95px;
+}
+
+.header__modal-window__container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 110px 65px 75px 65px;
+
+    background-color: rgba(0, 37, 8, 0.25);
+    backdrop-filter: blur(10px);
+    color: #FFFFFF;
+    position: relative;
+    z-index: 20;
+}
+
+.header__nav {
+    display: flex;
+    column-gap: 90px;
+}
+
+
+.header__nav-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 33.3333%;
+}
+
+.header__nav-list__item {
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.header__nav-list__item a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.item__nav-list__item {
+    margin-top: 15px;
+    opacity: .4;
+}
+
+
+.header__modal-window__links {
+    padding-top: 30px;
+    width: 33.3333%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.header__modal-window__links-box {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.modal-close__box {
+    position: absolute;
+    top: 44px;
+    right: 44px;
+    cursor: pointer;
+}

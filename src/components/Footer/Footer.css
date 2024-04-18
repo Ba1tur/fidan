@@ -1,0 +1,44 @@
+.footer__container {
+    max-width: 90%;
+    margin: 0 auto;
+
+    padding: 35px 0;
+}
+
+
+.footer__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.footer__box-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer__box-contacts-title h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.footer__box-contacts-title__contacts {
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer__box-contacts__links {
+    display: flex;
+    column-gap: 25px;
+}
+
+.footer-end {
+    border-top: 1px solid var(--Green);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+    font-weight: 300;
+}

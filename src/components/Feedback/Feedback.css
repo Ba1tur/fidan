@@ -1,0 +1,107 @@
+#feedback {
+    background-image: url('../../assets/image/feedback-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    color: var(--White);
+}
+
+.pt-200px {
+    padding: 250px 0 150px 0!important;
+}
+
+.feedback__left-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.feedback__left-box h4 {
+    font-size: 92px;
+    font-weight: 400;
+}
+
+
+.feedback__left-box__contact {
+    display: flex;
+    column-gap: 20px;
+}
+
+
+.feedback__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.feedback__form input::-webkit-input-placeholder {
+    color: var(--White);
+}
+.feedback__form input:-moz-placeholder {
+    color: var(--White);
+}
+.feedback__form input::-moz-placeholder {
+    color: var(--White);
+}
+.feedback__form input:-ms-input-placeholder {
+    color: var(--White);
+}
+
+.feedback__form input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--White);
+    padding-bottom: 20px;
+    outline: none;
+    color: var(--White);
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.feedback__form-name {
+    display: flex;
+    column-gap: 20px;
+}
+
+.feedback__form__select {
+    display: flex;
+    text-align: center;
+}
+
+.feedback__form__select-item {
+    border: 2px solid var(--White);
+    width: 100%;
+    padding: 15px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.feedback__form__select .isSelected {
+    background-color: var(--White);
+    color: var(--Black);
+}
+
+.feedback__form__textarea textarea {
+    height: 100px;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid var(--White);
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: var(--White);
+    margin-top: 20px;
+}
+
+.feedback__form__button button {
+    width: 100%;
+    border: none;
+    background-color: var(--White);
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}

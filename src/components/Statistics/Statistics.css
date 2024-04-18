@@ -1,0 +1,42 @@
+#statistics {
+    background-image: url('../../assets/image/statistics-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0;
+}
+
+#statistics .container {
+    max-width: 85%;
+}
+
+#statistics .row {
+    margin: 0;
+}
+
+#statistics .col-4 {
+    padding: 0;
+}
+
+.statistics__box {
+    height: 100%;
+    padding: 50px 30px;
+    text-align: center;
+    border-right: 2px solid var(--Green);
+}
+
+#statistics .row .col-4:last-child .statistics__box  {
+    border-right: none;
+}
+
+.statistics__box p {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--Green);
+}
+
+.statistics__box span {
+    display: block;
+    font-size: 22px;
+    color: #696969;
+}

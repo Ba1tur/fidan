@@ -1,0 +1,11 @@
+#text-section {
+    background-color: var(--Green);
+    color: var(--White);
+    text-align: center;
+    padding: 40px 0;
+}
+
+#text-section p {
+    max-width: 70%;
+    margin: 0 auto;
+}
